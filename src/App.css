@@ -160,7 +160,7 @@ main h4 {
     width: 66% !important;
 }
 
-@media (max-height: 1500px) and (min-width: 768px) {
+@media (max-height: 1500px) and (min-width: 1000px) {
     .experiencia .experiencia-lista {
         max-height: 400px !important;
         overflow-y: auto;
@@ -251,7 +251,7 @@ main h4 {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     #page-container {
         width: 100vw !important;
         max-width: 100vw !important;
@@ -350,6 +350,11 @@ main h4 {
 
     .nombrefoto {
         flex-direction: column !important;
+    }
+
+    .barra,
+    .barra-container {
+        width: 100% !important;
     }
 
 }

@@ -372,8 +372,8 @@ function App() {
                           <span className='d-flex my-auto'>{skill.logo}</span>
                           <span className='fw-bold'>{skill.nombre}</span>
                         </div>
-                        <div className="d-flex align-items-center gap-1 w-100">
-                          <div className="barra-container w-100">
+                        <div className="d-flex align-items-center gap-1 barra">
+                          <div className="barra-container">
                             <div
                               className="barra"
                               style={{ width: `${skill.porcentaje}%`, backgroundColor: '#238F51' }}
