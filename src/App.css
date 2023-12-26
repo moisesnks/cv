@@ -261,6 +261,7 @@ main h4 {
 
     .page {
         width: 100% !important;
+        border: none !important;
     }
 
     * {
