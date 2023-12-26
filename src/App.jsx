@@ -367,7 +367,7 @@ function App() {
                   <h3 className='fw-bold'>MIS HABILIDADES</h3>
                   {datosPersonales.skills.map((skill) => (
                     <div key={skill.nombre} className="habilidad">
-                      <div class="skill d-flex justify-content-between align-items-center gap-2 my-1">
+                      <div className="skill d-flex justify-content-between align-items-center gap-2 my-1">
                         <div className="d-flex gap-1">
                           <span className='d-flex my-auto'>{skill.logo}</span>
                           <span className='fw-bold'>{skill.nombre}</span>
