@@ -353,8 +353,11 @@ main h4 {
         flex-direction: column !important;
     }
 
-    .barra,
     .barra-container {
+        width: 100% !important;
+    }
+
+    .barrita {
         width: 100% !important;
     }
 
